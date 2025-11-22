@@ -1,43 +1,43 @@
-# Rooting-without-root
-Android Rootless Toolkit - boot.img extraction  + recovery automation Pvt
-Rooting Without Root Access – Android Rootless Toolkit
+# Rooting Without Root Access – Android Rootless Toolkit
 
-A set of Android + Termux tools that allow partial firmware extraction, boot image handling, ADB bridging, OTG flashing, and recovery-mode automation without having root access on the target device.
+This repository contains tools and scripts for performing advanced Android operations **without root access**, including boot image extraction, recovery-mode access, OTG flashing, Magisk preparation, and adb automation.
 
-This project is part of the JMFMM Toolkit Initiative, focusing on helping users recover or modify Android devices using only mobile tools.
-
+Part of the **JMFMM Toolkit Initiative**.
 
 ---
 
-✨ Features
+## ✨ Features
 
-Extract boot.img without root using:
+- Extract `boot.img` using:
+  - Recovery ADB Pull
+  - OTA Payload extraction
+  - Dynamic partition scanning
+- Rootless flashing via:
+  - ADB Sideload
+  - Fastboot-over-OTG (mobile-only)
+  - Samsung ODIN-style flashing via Termux
+- Hisense + Samsung specialized operations
+- Magisk boot patch preparation without root
+- Auto-recovery bridge scripts
+- Prebuilt vbmeta (verification disabled)
 
-OTA payload extraction
+---
 
-Recovery-mode ADB pull
+## 📁 Structure
 
-Dynamic partition scanning
+See `/scripts/` for operational bash files  
+See `/docs/` for detailed guides  
+See `/modules/` for Magisk templates  
 
+---
 
-Rooting preparation scripts:
+## ⚠️ Disclaimer
 
-Patch boot.img with Magisk (Termux method)
+This toolkit is for educational and recovery purposes only.  
+You are responsible for your device.
 
-Prepare vbmeta.img (disable verification)
+---
 
+## 🧑‍💻 Author
 
-Non-root flashing via:
-
-ADB sideload
-
-Fastboot-over-OTG
-
-Samsung ODIN-style mobile scripts
-
-
-Recovery Simulation Interface
-
-Hisense / Samsung specialized utilities
-
-Rootless update-engine bypass experiments
+Junaid Mullins (JMFMM Toolkit / Flash Commander Project)

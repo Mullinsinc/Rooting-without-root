@@ -41,3 +41,9 @@ You are responsible for your device.
 ## 🧑‍💻 Author
 
 Junaid Mullins (JMFMM Toolkit / Flash Commander Project)
+# Rootless UpdateEngine Bypass
+
+Experimental code for manipulating update-engine without root by using:
+- Recovery ramdisk
+- OTA pre-patching
+- Dynamic partitions overwrite (if possible)

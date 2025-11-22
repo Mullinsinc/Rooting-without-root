@@ -1,0 +1,6 @@
+id=jmfmm-module
+name=JMFMM Magisk Module Template
+version=1.0
+versionCode=1
+author=Junaid Mullins
+description=Base template for JMFMM Magisk modules.
